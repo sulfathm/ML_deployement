@@ -1,0 +1,10 @@
+#background{
+    background-image: url(../image/house\ rent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 900px;
+}
+#form{
+    margin-left: 500px;
+    padding-top: 100px;
+}

@@ -1,0 +1,17 @@
+#background{
+    background-image: url(../image/weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    padding-top: 100px;
+    text-align: center;
+}
+#prediction{
+    background-image: url(../image/weatherpred.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    padding-top: 100px;
+    text-align: center;
+
+}

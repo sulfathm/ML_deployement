@@ -1,0 +1,19 @@
+#background{
+    background-image: url(../image/tip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#input{
+    text-align: center;
+    width: 10cm;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+#submit{
+    text-align: center;
+    margin-left: 600px;
+
+}
+
+

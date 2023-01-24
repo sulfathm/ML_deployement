@@ -1,0 +1,48 @@
+#background{
+    background-image: url(../image/doctor-patient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+    padding-top: 50px;
+}
+#submit{
+    color: white;
+    background-color: black;
+    border: solid;
+    border-color: white;
+    width: 2cm;
+}
+#result{
+    text-align: center;
+    padding-top: 100px;
+    background-color: bisque;
+    background-size: cover;
+    height: 750px;
+}
+#Gender{
+    margin-right: 10px;
+    width: 4.5cm;
+}
+#MaritalStatus{
+    margin-right: 10px;
+    width: 4.5cm;
+}
+#SmokingStatus{
+    margin-right: 10px;
+    width: 4.5cm;
+
+}
+#result1{
+    text-align: center;
+    padding-top: 100px;
+    background-color: burlywood;
+    background-size: cover;
+    height: 750px;
+}
+#img{
+    padding-top: 100px;
+}
+#img1{
+    padding-top: 100px; 
+}

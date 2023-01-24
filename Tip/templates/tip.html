@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/CSS/tip.css">
+</head>
+<body>
+    <div style="background-image: url(../static/image/cash.jpg); height: 700px; width: 1300px; background-size: cover;">
+        <form action="{{url_for('predict')}}" method="post" class="form">
+        <h1 style="text-align: center; padding-top: 100px; padding-left: 20px;">Tip Amount Prediction</h1>
+        <input  id="input" type="text" name="text" placeholder="Enter your Bill amount" style="padding-left: 20px;"><br><br>
+        <input type="submit" id="submit" value="submit" style="padding-left: 20px;">
+    </form>
+    <h2 style="text-align: center;">{{prediction_text}}</h2>
+
+    </div>
+</body>
+</html>

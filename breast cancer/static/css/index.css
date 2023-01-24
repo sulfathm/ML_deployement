@@ -1,0 +1,24 @@
+#background{
+    background-image: url(../image/cancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 750px;
+    padding-top: 100px;
+}
+#submit{
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: plum;
+    width: 2cm;
+}
+h2{
+    text-align: center;
+    padding-top: 100px;
+
+}
+#result{
+    background-color: plum;
+    height: 750px;
+}

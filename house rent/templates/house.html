@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/house.css">
+    
+</head>
+<body>
+    <div id="background" style="background-image: url(../static/image/house\ rent.jpg); resize: both; height: 700px;">
+        <form action="{{url_for('predict')}}" method="post" id="form">
+            <h1>House Rent Prediction</h1>
+            <input type="text" name="text1" class="input" placeholder="BHK"><br><br>
+            <input type="text" name="text2" class="input" placeholder="Size"><br><br>
+            <input type="text" name="text3" class="input" placeholder="Number of Bedrooms"><br><br>
+            <input type="submit" id="submit" name="submit">
+        </form>
+        <h2 style="text-align: center;">{{prediction_text}}</h2>
+    
+    </div>
+</body>
+</html>

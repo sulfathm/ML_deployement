@@ -1,0 +1,61 @@
+#background{
+    background-image: url(../image/stressed\ man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+#form{
+    text-align: center;
+    padding-top: 80px;
+}
+#Gender{
+    width: 4.7cm;
+}
+#Yearofstudy{
+    width: 4.7cm;
+}
+#CGPA{
+    width: 4.7cm; 
+}
+#maritalstatus{
+    width: 4.7cm;
+}
+#Depression{
+    width: 4.7cm;
+}
+#Anxiety{
+    width: 4.7cm;
+}
+#Treatment{
+    width: 4.7cm;
+}
+/* #result2{
+    text-align: center;
+    margin-top: 70px;
+    background-color: burlywood;
+    margin-top: 200pxx;
+    height: 750px;
+
+}
+/* #img2{
+    margin-top: 150px;
+    /* padding-bottom: 100px; */
+/* }
+h2{
+    padding-top: 150px;
+} */ */ */
+#result1{
+    text-align: center;
+    margin-top: 70px;
+    background-color: burlywood;
+    margin-top: -50px;
+    height: 750px;
+}
+#result2{
+    text-align: center;
+    /* margin-top: 70px; */
+    background-color: burlywood;
+    margin-top: -20px;
+    height: 650px; 
+    padding-top: 100px;
+}

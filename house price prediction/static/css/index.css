@@ -1,0 +1,21 @@
+#background{
+    background-image: url(../image/house\ price\ prediction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+#submit{
+    text-align: center;
+    margin-left: 630px;
+
+}
+#area{
+    text-align: center;
+    margin-left: 500px;
+    width: 300px;
+    

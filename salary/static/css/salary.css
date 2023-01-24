@@ -1,0 +1,28 @@
+#background{
+    background-image: url(../image/salarypik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+#text{
+    width: 10cm;
+    text-align: center;
+    margin-left: 480px;
+}
+#submit{
+    text-align: center;
+    border: white;
+    border-radius: 8%;
+    color: white;
+    background-color: red;
+    border-color: white;
+    border-style: solid;
+    width: 2.5cm;
+    margin-left: 620px;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 110px;
+    padding-top: 100px;
+}

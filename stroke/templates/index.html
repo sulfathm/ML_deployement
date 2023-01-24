@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Prediction</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+    <div id="background">
+        <form action="{{url_for('predict')}}" method="post" id="form">
+            <h1>Stroke Prediction</h1>
+            
+            <select name="text1" id="Gender">
+                <option value="">Gender</option><br><br>
+                <option value="1" placeholder="Gender" name="text1" >Male</option>
+                <option value="0" placeholder="Gender" name="text1" >Female</option>
+            </select><br><br>
+            <input type="text" placeholder="Your Age" name="text2"><br><br>
+            <input type="text" placeholder="Hyper Tension" name="text3"><br><br>
+            <input type="text" placeholder="hear disease" name="text4"><br><br>
+            <select name="text5" id="MaritalStatus">
+                <option value="">Marital Status</option><br><br>
+                <option value="1" placeholder="Marital Status" name="text5" >Married</option>
+                <option value="0" placeholder="Marital Status" name="text5" >Unmarried</option>
+            </select><br><br>
+            
+            <input type="text" placeholder="Average glucose Level" name="text6"><br><br>
+            <input type="text" placeholder="BMI" name="text7"><br><br>
+            <select name="text8" id="SmokingStatus">
+                <option value="">Smoking Status</option><br><br>
+                <option value="1" placeholder="Smoking Status" name="text8" >formly smoked</option>
+                <option value="2" placeholder="Smoking Status" name="text8" >never smoked</option>
+                <option value="0" placeholder="Smoking Status" name="text8" >unknown</option>
+                <option value="3" placeholder="Smoking Status" name="text8" >smokes</option>
+
+            </select><br><br>
+            
+            <input type="submit" value="submit" id="submit"><br><br>
+        </form>
+    </div>
+</body>
+</html>

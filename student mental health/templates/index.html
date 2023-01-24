@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+    <div id="background">
+        <form action="{{url_for('predict')}}" id="form" method="post">
+            <h1>Student's Mental Health Prediction</h1>
+            <select name="text1" id="Gender" class="width">
+                <option value="">Gender</option>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select><br><br>
+            <input type="text" name="text2" id="text2" placeholder="Enter your age"><br><br>
+            <select name="text3" id="Yearofstudy" class="width">
+                <option value="">Year of study</option>
+                <option value="0">Year 1</option>
+                <option value="1">Year 2</option>
+                <option value="2">Year 3</option>
+                <option value="3">Year 4</option>
+            </select><br><br>
+            <select name="text4" id="CGPA" class="width">
+                <option value="">CGPA</option>
+                <option value="3">3.00 - 3.49</option>
+                <option value="4">3.50 - 4.00</option>
+                <option value="2">2.50 - 2.99</option>
+                <option value="1">2.00 - 2.49</option>
+                <option value="0">0 - 1.99</option>
+            </select><br><br>
+            <select name="text5" id="maritalstatus" class="width">
+                <option value="">Marital Status</option>
+                <option value="0">Unmarried</option>
+                <option value="1">Married</option>
+            </select><br><br>
+            <select name="text6" id="Depression" class="width">
+                <option value="">Depression</option>
+                <option value="0">NO</option>
+                <option value="1">YES</option>
+            </select><br><br>
+            <select name="text7" id="Anxiety" class="width">
+                <option value="">Anxiety</option>
+                <option value="0">NO</option>
+                <option value="1">YES</option>
+            </select><br><br>
+            <select name="text8" id="Treatment" class="width">
+                <option value="">Treatment</option>
+                <option value="0">NO</option>
+                <option value="1">YES</option>
+            </select><br><br>
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
+<select name="text5" id="MaritalStatus">
+    <option value="">Marital Status</option><br><br>
